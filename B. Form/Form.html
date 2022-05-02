@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <form id="form">
+        <div id="form-item-container">
+            <div class="form-item">
+                <label for="form-name"><h4>Name</h4></label>
+                <input class="textfield" id="form-name" type="text" name="form-name">
+                <p id="name-warning" class="warning-text hidden">Field is Required</p>
+            </div>
+            <div class="form-item">
+                <label for="form-email"><h4>Email</h4></label>
+                <input class="textfield" id="form-email" type="text" name="form-email">
+                <p id="email-warning" class="warning-text hidden">Field is Required</p>
+            </div>
+            <div class="form-item">
+                <h4>Gender</h4>
+                <div class="form-radio">
+                    <div>
+                        <input type="radio" id="male" value="male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="female" value="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+                <p id="gender-warning" class="warning-text hidden">Field is Required</p>
+            </div>
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    <script type="text/javascript" src="Form.js"></script>
+</body>
+</html>

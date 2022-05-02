@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#carousel-container {
+    width: 450px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+    margin: 25px;
+    border: 1px solid;
+}
+.carousel-btn {
+    border: 0;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 32px;
+    position: absolute;
+    background-color: rgba(225, 225, 225, 0.5)
+}
+.carousel-btn:hover {
+    cursor: pointer;
+    background-color: rgba(225, 225, 225, 0.8);
+    transition: opacity 0.3s;
+}
+#slide-left {
+    left: 10px;
+}
+#slide-right {
+    right: 10px;
+}
+#carousel-image-container {
+    display: flex;
+    flex-direction: row;
+    transform: translateX(0);
+    z-index: -1;
+    transition: transform 0.3s;
+}
+.images {
+    width: 400px;
+    height: 300px;
+}
