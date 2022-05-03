@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: 5px;
+    border: 1px solid #000;
+    overflow: hidden;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid #000;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.contacts {
+    display: flex;
+}
+.contact-info {
+    margin-right: 10px;
+}
+
+.icon {
+    width: 40px;
+    margin-right: 10px;
+}
+.item {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
